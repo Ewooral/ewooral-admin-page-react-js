@@ -5,10 +5,10 @@ import logo from '../../assets/logo.svg';
 
 const Navbar = () => {
     return (
-        <section className="gpt3__navbar">
-            <figure className="gpt3__navbar-links">
-                <div className="gpt3__navbar-links_logo">
-                    <img src="{logo}" alt="" />
+        <section className="ek__navbar">
+            <figure className="ek__navbar-links">
+                <div className="ek__navbar-links_logo">
+                    <img src={logo} alt="" />
                 </div>
             </figure>
         </section>
