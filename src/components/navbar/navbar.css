@@ -85,6 +85,9 @@
   .ek__navbar-links_container{
     display:none;
   }
+  .ek__navbar-menu{
+   display:flex; 
+  }
 }
 
 
