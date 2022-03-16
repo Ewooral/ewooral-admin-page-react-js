@@ -2,8 +2,9 @@
     font-family: 'Manrope';
 font-style: normal;
 font-weight: 800;
-font-size: 62px;
-line-height: 75px;
+font-size: 32px;
+width:60%;
+/* line-height: 75px; */
 /* or 121% */
 
 letter-spacing: -0.04em;

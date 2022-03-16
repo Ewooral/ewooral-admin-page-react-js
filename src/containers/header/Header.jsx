@@ -9,7 +9,7 @@ const Header = () => {
            
             <div className = "ek__header-content">
                  <h1 className="ek__header-content">
-                    Data Structures and Algorithms, their use cases and Asymptotic Analysis
+                    Data Structures and Algorithms, Use Cases, and Asymptotic Analysis
                 </h1>
             </div>
         </div>

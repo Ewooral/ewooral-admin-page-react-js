@@ -3,7 +3,7 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
 // import logo from "../../assets/logo.svg";
 
-<></>; // this is a react fragment syntax
+<></>; // this is a react fragment syntax RiMenu3Line
 const Menu = () => (
   <>
     <p>
@@ -33,6 +33,8 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <section className="ek__navbar">
+
+    
       <figure className="ek__navbar-links">
         <div className="ek__navbar-links _logo">
           {/* <img src={logo} alt="" /> */}
@@ -45,24 +47,19 @@ const Navbar = () => {
           <Menu />
         </div>
       </figure> 
+
+
       <figure className="ek__navbar-sign">
         <p>Sign In</p>
         <button type= "button">Sign Up</button>
       </figure>
+
+
       <figure className="ek__navbar-menu">
-        {toggleMenu ? (
-          <RiCloseLine
-            color="#fff"
-            size={27}
-            onClick={() => setToggleMenu(false)}
-          />
-        ) : (
-          <RiMenu3Line
-            color="#fff"
-            size={27}
-            onClick={() => setToggleMenu(true)}
-          />
-        )}
+        {toggleMenu 
+         ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
+         : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
+         }
         {toggleMenu && (
           <figure className="ek__navbar-menu_container scale-up-center">
             <div className="ek__navbar-menu_container-links">
