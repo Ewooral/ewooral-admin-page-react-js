@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
-import logo from "../../assets/logo.svg";
+// import logo from "../../assets/logo.svg";
 
 <></>; // this is a react fragment syntax
 const Menu = () => (
   <>
     <p>
       {" "}
-      <a href="#home">Home</a>{" "}
+      <a href="#home">Dashboard</a>{" "}
     </p>
     <p>
       {" "}
-      <a href="#ewooral">What is Ewooral-Kingdom</a>{" "}
+      <a href="#ewooral">Algorithms</a>{" "}
     </p>
     <p>
       {" "}
@@ -35,7 +35,11 @@ const Navbar = () => {
     <section className="ek__navbar">
       <figure className="ek__navbar-links">
         <div className="ek__navbar-links _logo">
-          <img src={logo} alt="" />
+          {/* <img src={logo} alt="" /> */}
+          algo  
+          <b className ="ek__navbar-links-colorText">
+          Ewooral
+          </b>
         </div>
         <div className="ek__navbar-links_container">
           <Menu />

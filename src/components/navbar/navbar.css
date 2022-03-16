@@ -9,9 +9,17 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  color: #fff;
+  font-size: 1.8rem;
+  font-family: pacifico;
+}
+.ek__navbar-links-colorText{
+   color:#f06a4c;
+   font-family: pacifico, "DM Sans";
 }
 .ek__navbar-links_logo {
   margin-right: 2rem;
+
 }
 .ek__navbar-links_container {
   display: flex;

@@ -1,9 +1,17 @@
 import React from 'react'
 import './header.css'
+
+
+
 const Header = () => {
     return (
-        <div>
-            <h1>Header </h1>
+        <div className = "ek__header section__padding" id = "home">
+           
+            <div className = "ek__header-content">
+                 <h1 className="ek__header-content">
+                    Data Structures and Algorithms, their use cases and Asymptotic Analysis
+                </h1>
+            </div>
         </div>
     )
 }
