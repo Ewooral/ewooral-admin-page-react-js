@@ -34,16 +34,16 @@ const Navbar = () => {
   return (
     <section className="ek__navbar">
       <figure className="ek__navbar-links">
-        <div className="ek__navbar-links_logo">
+        <div className="ek__navbar-links _logo">
           <img src={logo} alt="" />
         </div>
         <div className="ek__navbar-links_container">
           <Menu />
         </div>
-      </figure>
+      </figure> 
       <figure className="ek__navbar-sign">
         <p>Sign In</p>
-        <button>Sign Up</button>
+        <button type= "button">Sign Up</button>
       </figure>
       <figure className="ek__navbar-menu">
         {toggleMenu ? (
