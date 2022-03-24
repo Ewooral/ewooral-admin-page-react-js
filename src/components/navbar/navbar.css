@@ -71,7 +71,7 @@
 
   text-align:end;
   background: var(--color-footer);
-  padding:2rem;
+  /* padding:2rem; */
   position:absolute;
   top:40px;
   right:0;
