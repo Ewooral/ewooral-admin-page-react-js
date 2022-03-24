@@ -70,7 +70,7 @@
   flex-direction: column;
 
   text-align:end;
-  /* background: var(--color-footer); */
+  background: var(--color-footer);
   padding:2rem;
   position:absolute;
   top:40px;
