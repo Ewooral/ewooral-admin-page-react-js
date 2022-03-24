@@ -92,7 +92,7 @@
 @media screen and (max-width:1050px){
   .ek__navbar-links_container{
     display:none;
-  }
+  /* } */
 
 
   .ek__navbar-menu{
