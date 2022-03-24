@@ -90,7 +90,7 @@
 
 
 @media screen and (max-width:1050px){
-  /* .ek__navbar-links_container{ */
+  .ek__navbar-links_container{
     display:none;
   }
 
