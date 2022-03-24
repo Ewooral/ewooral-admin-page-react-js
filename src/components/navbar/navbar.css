@@ -78,7 +78,7 @@
   margin-top: 1rem;
   min-width: 210px;
   border-radius: 5px;
-  /* box-shadow: 0 0 5 rgba(0,0,0,0.2); */
+  box-shadow: 0 0 5 rgba(0,0,0,0.2);
 
 }
 .ek__navbar-menu_container p{
